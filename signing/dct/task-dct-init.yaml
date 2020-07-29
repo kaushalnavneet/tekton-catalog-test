@@ -25,7 +25,7 @@ spec:
       description: build signer
     - name: ibmcloud-api
       description: the ibmcloud api
-      default: https://cloud.ibm.com
+      default: https://test.cloud.ibm.com
     - name: continuous-delivery-context-secret
       description: name of the secret containing the continuous delivery pipeline context secrets
       default: secure-properties
