@@ -113,6 +113,16 @@ spec:
         # until https://github.com/tektoncd/pipeline/issues/1836 is fixed
         export HOME="/root"
         ##########################################################################
+        #
+        # ｱｲｳ\¥鯵㈱表噂ソ十豹竹敷～兎椄＊＠＇愛金
+        # ― ～∥－￤№
+        # -―〜～‖∥−－¦￤№ 
+        # 鷗葛渚噓𠀋𪆐𪚲か゚
+        # €
+        # 鼀丅㐀ٸཌྷᠧꌢ
+        # ıİıİıİ
+        # öüäßéíèÄäÖöÜüß€
+        # 
         if [[ "$REPOSITORY" != *.git ]]; then
           echo "Adding .git suffix to Repository URL"
           REPOSITORY="${REPOSITORY}.git"
