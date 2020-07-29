@@ -1,10 +1,29 @@
+---
+apiVersion: tekton.dev/v1beta1
+kind: task
+metadata:
+  name: gvt-text
+spec:
+  params:
+    - name: value
+    - name: condition
+      default: '='
+    - name: expected
+      default: 'true'
+  steps:
+    image: ibmcom/pipeline-base-image:2.6
+    command: ["/bin/bash", "-c"]
+    args:
+        - |
         #
         # ｱｲｳ\¥鯵㈱表噂ソ十豹竹敷～兎椄＊＠＇愛金
         # ― ～∥－￤№
         # -―〜～‖∥−－¦￤№ 
-        # 鷗葛渚噓𠀋𪆐𪚲か゚
-        # €
+        # 鷗葛渚噓𠀋𪆐𪚲か゚ 
         # 鼀丅㐀ٸཌྷᠧꌢ
         # ıİıİıİ
         # öüäßéíèÄäÖöÜüß€
         # 
+        echo "ｱｲｳ\¥鯵㈱表噂ソ十豹竹敷～兎椄＊＠＇愛金"
+        echo "― ～∥－￤№-―〜～‖∥−－¦￤№"
+        echo "ıİıİıİöüäßéíèÄäÖöÜüß€"
