@@ -119,7 +119,13 @@ spec:
         # -―〜～‖∥−－¦￤№
         # ıİıİıİ
         # öüäßéíèÄäÖöÜüß€
-        # 
+        #
+        echo "ｱｲｳ\¥鯵㈱表噂ソ十豹竹敷～兎椄＊＠＇愛金"
+        echo "― ～∥－￤№"
+        echo "-―〜～‖∥−－¦￤№"
+        echo "ıİıİıİ"
+        echo "öüäßéíèÄäÖöÜüß€"
+        
         if [[ "$REPOSITORY" != *.git ]]; then
           echo "Adding .git suffix to Repository URL"
           REPOSITORY="${REPOSITORY}.git"
