@@ -69,7 +69,7 @@ spec:
         fi
 
         ibmcloud config --check-version false
-        ibmcloud login --apikey "$IBM_CLOUD_API_KEY" -r "$IBMCLOUD_TARGET_REGION"
+        ibmcloud login -a $(params.ibmcloud-api) --apikey "$IBM_CLOUD_API_KEY" -r "$IBMCLOUD_TARGET_REGION"
         ibmcloud target -g "$IBMCLOUD_TARGET_RESOURCE_GROUP"
 
         ibmcloud ks cluster config --cluster "${TARGET_CLUSTER}"
