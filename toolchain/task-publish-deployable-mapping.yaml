@@ -120,7 +120,7 @@ spec:
 
         if [ $(echo "$REGION_ID" | grep -c ':' -) -ne 1 ]; then
           # no ':' found so append ibmcloud production prefix to region id
-          export REGION_ID="ibm:yp:$REGION_ID"
+          export REGION_ID="ibm:ys1:$REGION_ID"
         fi
 
         echo "{}" | jq '.deployable={} | .toolchain={} | .source={}' > deployable_mapping.json
