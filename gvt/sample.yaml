@@ -9,21 +9,18 @@ spec:
     - name: revision
       description: the revision
       default: master
-    - name: apikey
-      description: the ibmcloud api key
-    - name: api
-      description: the ibmcloud api endpoint
-      default: "https://cloud.ibm.com"
-    - name: registryNamespace
-      description: the ibmcloud registry namespace
-    - name: imageName
-      description: the base image name
-      default: "hello-containers-tekton"
-    - name: registryRegion
-      description: the ibmcloud registry region
   workspaces:
   - name: task-pvc
     mountPath: /artifacts   
+    #
+    # ｱｲｳ¥鯵㈱表噂ソ十豹竹敷～兎椄＊＠＇愛金
+    # ― ～∥－￤№
+    # -―〜～‖∥−－¦￤№ 
+    # 鷗葛渚噓𠀋𪆐𪚲か゚ 
+    # 鼀丅㐀ٸཌྷᠧꌢ
+    # ıİıİıİ
+    # öüäßéíèÄäÖöÜüß€
+    # 
   steps:
     - name: clone-repo
       image: alpine/git
@@ -38,7 +35,7 @@ spec:
           echo "Cloning $REPOSITORY";
           cd /workspace && git clone -q -b $REVISION $REPOSITORY .;
         #
-        # ｱｲｳ¥鯵㈱表噂ソ十豹竹敷～兎椄＊＠＇愛金
+          echo "ｱｲｳ¥鯵㈱表噂ソ十豹竹敷～兎椄＊＠＇愛金";
         # ― ～∥－￤№
         # -―〜～‖∥−－¦￤№ 
         # 鷗葛渚噓𠀋𪆐𪚲か゚ 
