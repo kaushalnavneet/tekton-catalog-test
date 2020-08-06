@@ -33,6 +33,7 @@ spec:
       args:
         - set -e -o pipefail;
           echo "Cloning $REPOSITORY";
+          echo "ｱｲｳ\¥鯵㈱表噂ソ十豹竹敷～兎椄＊＠＇愛金";
           cd /workspace && git clone -q -b $REVISION $REPOSITORY .;
           #
         # ｱｲｳ\¥鯵㈱表噂ソ十豹竹敷～兎椄＊＠＇愛金
@@ -41,7 +42,6 @@ spec:
         # ıİıİıİ
         # öüäßéíèÄäÖöÜüß€
         #
-        echo "ｱｲｳ\¥鯵㈱表噂ソ十豹竹敷～兎椄＊＠＇愛金";
         echo "― ～∥－￤№";
         echo "-―〜～‖∥−－¦￤№";
         echo "ıİıİıİ";
