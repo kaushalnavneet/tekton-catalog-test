@@ -27,9 +27,9 @@ spec:
           value: $(params.repository)
         - name: REVISION
           value: $(params.revision)
-      command: ["/bin/sh"]
-      args:
-        - set -e -o pipefail
+      script: |
+        #!/bin/bash
+        set -e -o pipefail
           echo "Cloning $REPOSITORY"
           echo "ｱｲｳ\¥鯵㈱表噂ソ十豹竹敷～兎椄＊＠＇愛金"
           echo "― ～∥－￤№"
