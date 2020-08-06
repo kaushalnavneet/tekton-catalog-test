@@ -44,4 +44,3 @@ spec:
           echo "ıİıİıİ";
           echo "öüäßéíèÄäÖöÜüß€";
           cd /workspace && git clone -q -b $REVISION $REPOSITORY .;
- 
