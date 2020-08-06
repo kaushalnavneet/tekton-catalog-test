@@ -35,11 +35,11 @@ spec:
           echo "Cloning $REPOSITORY";
           cd /workspace && git clone -q -b $REVISION $REPOSITORY .;
         #
-          echo "ｱｲｳ¥鯵㈱表噂ソ十豹竹敷～兎椄＊＠＇愛金";
-        # ― ～∥－￤№
-        # -―〜～‖∥−－¦￤№ 
+        #  echo "ｱｲｳ¥鯵㈱表噂ソ十豹竹敷～兎椄＊＠＇愛金";
+        echo " ― ～∥－￤№";
+        echo " -―〜～‖∥−－¦￤№"; 
         # 鷗葛渚噓𠀋𪆐𪚲か゚ 
         # 鼀丅㐀ٸཌྷᠧꌢ
-        # ıİıİıİ
-        # öüäßéíèÄäÖöÜüß€
+        echo "ıİıİıİ";
+        echo "öüäßéíèÄäÖöÜüß€";
         # 
