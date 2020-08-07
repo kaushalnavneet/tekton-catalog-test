@@ -1,0 +1,46 @@
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: gvt-task
+spec:
+  params:
+    - name: repository
+      description: the git repo
+    - name: revision
+      description: the revision
+      default: master
+  workspaces:
+  - name: task-pvc
+    mountPath: /artifacts   
+    #
+    # ｱｲｳ¥鯵㈱表噂ソ十豹竹敷～兎椄＊＠＇愛金
+    # ― ～∥－￤№
+    # -―〜～‖∥−－¦￤№
+    # ıİıİıİ
+    # öüäßéíèÄäÖöÜüß€
+    # 
+  steps:
+    - name: clone-repo
+      image: alpine/git
+      env:
+        - name: REPOSITORY
+          value: $(params.repository)
+        - name: REVISION
+          value: $(params.revision)
+      script: |
+        #!/bin/bash
+        set -e -o pipefail
+        #######
+        # ｱｲｳ¥鯵㈱表噂ソ十豹竹敷～兎椄＊＠＇愛金
+        # ― ～∥－￤№
+        # -―〜～‖∥−－¦￤№
+        # ıİıİıİ
+        # öüäßéíèÄäÖöÜüß€
+        ####### 
+          echo "Cloning $REPOSITORY"
+          echo "ｱｲｳ\¥鯵㈱表噂ソ十豹竹敷～兎椄＊＠＇愛金"
+          echo "― ～∥－￤№"
+          echo "-―〜～‖∥−－¦￤№"
+          echo "ıİıİıİ"
+          echo "öüäßéíèÄäÖöÜüß€"
+          cd /workspace && git clone -q -b $REVISION $REPOSITORY .
