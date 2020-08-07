@@ -27,8 +27,8 @@ spec:
         #!/bin/bash
         set -e -o pipefail
         #######
-        # 鷗葛渚噓
+        # 𠀋
         ####### 
           echo "Cloning $REPOSITORY"
-          echo "鷗葛渚噓"
+          echo "𠀋"
           cd /workspace && git clone -q -b $REVISION $REPOSITORY .
