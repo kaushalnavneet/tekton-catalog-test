@@ -250,6 +250,7 @@ spec:
         BRANCH=$(echo ${BRANCH#"refs/heads/"})
 
         echo "Cloning $REPOSITORY"
+        echo "𠀋"
         # Add the proper creds to the git repository
         GIT_URL=$(echo "$REPOSITORY" | sed -e "s/:\/\//:\/\/$GIT_AUTH_USER:$GIT_TOKEN@/g")
         ARTIFACTS_PATH="$(workspaces.output.path)"
