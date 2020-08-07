@@ -13,11 +13,7 @@ spec:
   - name: task-pvc
     mountPath: /artifacts   
     #
-    # ｱｲｳ¥鯵㈱表噂ソ十豹竹敷～兎椄＊＠＇愛金
-    # ― ～∥－￤№
-    # -―〜～‖∥−－¦￤№
-    # ıİıİıİ
-    # öüäßéíèÄäÖöÜüß€
+    # 鷗葛渚噓𠀋𪆐𪚲か゚
     # 
   steps:
     - name: clone-repo
